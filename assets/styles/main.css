@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-heading {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9rem;
+    letter-spacing: -0.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .big-heading {
+        font-size: 6rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+
+.heading {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
